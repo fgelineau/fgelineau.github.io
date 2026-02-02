@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Félix-Antoine Gélineau – PhD, MIT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper site-header-inner">
+      <div>
+        <div class="site-title">Félix-Antoine Gélineau</div>
+        <div class="site-subtitle">PhD, MIT</div>
+      </div>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <ul class="nav-links">
+          <!-- This page is active -->
+          <li><a href="index.html" class="active">À propos de moi</a></li>
+          <li><a href="recherche.html">Recherche</a></li>
+          <li><a href="enseignement.html">Enseignement</a></li>
+          <li><a href="cv.html">CV</a></li>
+        </ul>
+
+        <div class="lang-switch">
+          <span class="lang-label">Langue</span>
+          <!-- Current language (FR) as plain text -->
+          <span class="lang-current">FR</span>
+          <!-- Other language (EN) as link to matching English page -->
+          <a class="lang-other" href="en/index.html">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrapper">
+   <section class="intro">
+ 
+     <h1 class="intro-title">À propos de moi</h1>
+ 
+     <div class="intro-photo">
+       <img src="assets/img/portrait.jpg" alt="Portrait de Félix-Antoine Gélineau">
+     </div>
+ 
+     <div class="intro-text">
+       <p>
+         Je suis chercheur et enseignant en philosophie. J'ai obtenu mon doctorat en philosophie
+         au <a href="https://philosophy.mit.edu" target="_blank" rel="noopener">Massachusetts Institute
+         of Technology</a>, où j'ai travaillé sous la supervision de
+         <a href="https://philosophy.mit.edu/white/" target="_blank" rel="noopener">Roger White</a>,
+         en août 2025. J'enseigne en ce moment à 
+         <a href="https://www.uqtr.ca/index.shtml" target="_blank" rel="noopener">
+           l'Université du Québec à Trois-Rivières
+         </a>.
+         Je suis également chercheur affilié au 
+         <a href="https://grin.normativity.ca/" target="_blank" rel="noopener">
+          Groupe de recherche interuniversitaire sur la normativité (GRIN)
+        </a>.
+       </p>
+ 
+       <p>
+         Ma recherche, financée par le
+         <a href="https://sshrc-crsh.canada.ca/fr.aspx" target="_blank" rel="noopener">
+           Conseil de recherche en sciences humaines du Canada (CRSH)
+         </a>,
+         porte sur un essaim de questions entourant la normativité épistémique.
+         Vous pouvez en lire plus sur la page <a href="recherche.html">Recherche</a>.
+         Je m'intéresse également à des questions en esthétique et en philosophie de l’art.
+       </p>
+ 
+       <p>
+         Avant mon doctorat au MIT, j’ai complété un baccalauréat et une maîtrise en philosophie
+         ainsi qu’un certificat en études classiques à
+         <a href="https://philo.umontreal.ca/accueil/" target="_blank" rel="noopener">l'Université de Montréal</a>,
+         où ma recherche était soutenue financièrement par le CRSH, le
+         <a href="https://frq.gouv.qc.ca/societe-et-culture/" target="_blank" rel="noopener">
+           Fonds de recherche du Québec – Société et culture (FRQSC)
+         </a>
+         et le
+         <a href="https://grin.normativity.ca/" target="_blank" rel="noopener">
+           Groupe de recherche interuniversitaire sur la normativité (GRIN)
+         </a>.
+       </p>
+ 
+       <p>
+         Avant de me consacrer à la philosophie, j’ai étudié la contrebasse classique au
+         <a href="https://www.conservatoire.gouv.qc.ca/fr/conservatoires/musiquequebec/" target="_blank" rel="noopener">
+           Conservatoire de Musique de Québec
+         </a>.
+         La plupart de mon temps libre est toujours consacré à la musique.
+       </p>
+ 
+       <p>
+         Vous pouvez me rejoindre à l’adresse suivante :
+         <code>felixantoinegelineau[arobas]alum[point]mit[point]edu</code>
+       </p>
+     </div>
+ 
+   </section>
+ </main> 
+ 
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      © <span id="year"></span> Félix-Antoine Gélineau
+    </div>
+  </footer>
+
+  <script>
+    // Simple script to keep the year up to date
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

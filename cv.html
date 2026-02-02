@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>CV – Félix-Antoine Gélineau</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper site-header-inner">
+      <div>
+        <div class="site-title">Félix-Antoine Gélineau</div>
+        <div class="site-subtitle">PhD, MIT</div>
+      </div>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="index.html">À propos de moi</a></li>
+          <!-- This page is active -->
+          <li><a href="recherche.html">Recherche</a></li>
+          <li><a href="enseignement.html">Enseignement</a></li>
+          <li><a href="cv.html" class="active">CV</a></li>
+        </ul>
+
+        <div class="lang-switch">
+          <span class="lang-label">Langue</span>
+          <span class="lang-current">FR</span>
+          <!-- English version of this page -->
+          <a class="lang-other" href="en/cv.html">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="wrapper">
+    <h1>Curriculum vitæ</h1>
+    <p>
+        Pour consulter mon curriculum vitæ, veuillez
+        <a href="assets\cv\fr_cv_jan2026-full_internet.pdf" target="_blank" rel="noopener">
+          cliquer ici
+        </a>.
+      </p>
+ </main>
+
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      © <span id="year"></span> Félix-Antoine Gélineau
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Félix-Antoine Gélineau – PhD, MIT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper site-header-inner">
+      <div>
+        <div class="site-title">Félix-Antoine Gélineau</div>
+        <div class="site-subtitle">PhD, MIT</div>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">About me</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="cv.html">CV</a></li>
+        </ul>
+
+        <div class="lang-switch">
+          <span class="lang-label">Language</span>
+          <span class="lang-current">EN</span>
+          <a class="lang-other"
+             href="../index.html"
+             onclick="localStorage.setItem('preferredLang', 'fr')">
+            FR
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <section class="intro">
+  
+      <h1 class="intro-title">About me</h1>
+  
+      <div class="intro-photo">
+        <img src="../assets/img/portrait.jpg" alt="Portrait of Félix-Antoine Gélineau">
+      </div>
+  
+      <div class="intro-text">
+        <p>
+            I am a philosopher working at the intersection of ethics and epistemology. I completed my PhD
+            in philosophy at the
+            <a href="https://philosophy.mit.edu" target="_blank" rel="noopener">
+              Massachusetts Institute of Technology
+            </a>
+            under the supervision of
+            <a href="https://philosophy.mit.edu/white/" target="_blank" rel="noopener">
+              Roger White
+            </a>
+            in August 2025. I am currently lecturing at the
+            <a href="https://www.uqtr.ca/english/index.shtml" target="_blank" rel="noopener">
+              Université du Québec à Trois-Rivières
+            </a>.
+          </p>
+        
+          <p>
+            My research, for which I received funding from the
+            <a href="https://sshrc-crsh.canada.ca/en.aspx" target="_blank" rel="noopener">
+              Social Sciences and Humanities Research Council of Canada (SSHRC)
+            </a>,
+            centers on epistemic normativity and value.
+            You can read more about it on the
+            <a href="research.html">
+              Research
+            </a>
+            page. I also have significant interests in aesthetics and the philosophy of art.
+          </p>
+        
+          <p>
+            I previously completed a B.A. in philosophy, a certificate in Classics, and an M.A. in
+            philosophy at the
+            <a href="https://philo.umontreal.ca/english/" target="_blank" rel="noopener">
+              Université de Montréal
+            </a>,
+            where my research was funded by SSHRC, the
+            <a href="https://frq.gouv.qc.ca/en/society-and-culture/" target="_blank" rel="noopener">
+              Fonds de recherche du Québec – Société et culture (FRQSC)
+            </a>,
+            as well as the
+            <a href="https://grin.normativity.ca/" target="_blank" rel="noopener">
+              Groupe de recherche interuniversitaire sur la normativité (GRIN)
+            </a>.
+          </p>
+        
+          <p>
+            Before philosophy, I studied classical double bass at the
+            <a href="https://www.conservatoire.gouv.qc.ca/fr/conservatoires/musiquequebec/" target="_blank" rel="noopener">
+              Conservatoire de Musique de Québec
+            </a>.
+            I still devote most of my free time to playing, listening to, and reading about music.
+          </p>
+        
+          <p>
+            You can contact me at the following address:
+            <code>felixantoinegelineau[at]alum[dot]mit[dot]edu</code>
+          </p>
+      </div>
+  
+    </section>
+  </main> 
+  
+  <footer class="site-footer">
+    <div class="wrapper">
+      © <span id="year"></span> Félix-Antoine Gélineau
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
