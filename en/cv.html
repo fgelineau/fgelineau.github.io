@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
   <meta charset="UTF-8">
   <title>CV – Félix-Antoine Gélineau</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
   <header class="site-header">
     <div class="wrapper site-header-inner">
@@ -26,7 +28,7 @@
           <span class="lang-label">Language</span>
           <span class="lang-current">EN</span>
           <a class="lang-other"
-             href="../index.html"
+             href="../cv.html"
              onclick="localStorage.setItem('preferredLang', 'fr')">
             FR
           </a>
@@ -34,6 +36,7 @@
       </nav>
     </div>
   </header>
+
   <main class="wrapper">
     <h1>Curriculum vitæ</h1>
     <p>
@@ -44,7 +47,6 @@
       </p>
  </main>
 
-
   <footer class="site-footer">
     <div class="wrapper">
       © <span id="year"></span> Félix-Antoine Gélineau
@@ -54,5 +56,6 @@
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>
